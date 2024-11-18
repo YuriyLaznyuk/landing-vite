@@ -1,11 +1,15 @@
+import Companies from "./components/companies/Companies";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import Pricing from "./components/pricing/Pricing";
 
-function App() {
+function App(): React.JSX.Element {
   return (
     <>
-     <Navbar/>
-     <Hero/>
+      <Navbar />
+      <Hero />
+      <Companies />
+      <Pricing/>
     </>
   );
 }
