@@ -19,7 +19,7 @@ export default function Status(): React.JSX.Element {
         </p>
         <a href="#" className="btn">KNOW MORE</a>
        </div>
-       <div className="status__right" data-aos="fade-left">
+       <div className="status__right" data-aos="zoom-in-down">
         <img src={StatusImg} alt="status" />
        </div>
       </div>

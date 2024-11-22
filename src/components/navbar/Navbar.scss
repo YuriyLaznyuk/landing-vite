@@ -24,14 +24,21 @@
       gap: 1.2rem;
       align-items: flex-start;
       position: absolute;
-      top:100%;
+      top: 100%;
       left: 0;
       padding: 2rem;
-      background-color:var(--black);
+      background-color: var(--black);
       width: 100%;
       border-top: 1px solid var(--spanish-gray);
       display: none;
       z-index: 99;
+    }
+    li {
+      @media (min-width: 56.25em) {
+        &:nth-child(-n + 2) {
+          display: none;
+        }
+      }
     }
 
     a {

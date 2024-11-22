@@ -13,6 +13,12 @@ export default function Navbar(): React.JSX.Element {
           <img src={Logo} alt="logo" />
         </a>
         <ul className={showNav ? "show" : ""}>
+        <li onClick={() => setShowNav(false)}>
+            <a href="#">login</a>
+          </li>
+          <li onClick={() => setShowNav(false)}>
+            <a href="#">register</a>
+          </li>
           <li onClick={() => setShowNav(false)}>
             <a href="#">product</a>
           </li>
